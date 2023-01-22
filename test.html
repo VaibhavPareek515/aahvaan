@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>index</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap" rel="stylesheet">
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<style type="text/css">
+		* {
+		padding: 0px;
+		margin: 0px;
+		box-sizing: border-box;
+	}
+
+	body {
+		font-family: 'Mukta', sans-serif;
+	}
+
+	main {
+		width: 100%;
+		height: 60ch;
+		/*border: solid;*/
+		overflow: hidden;
+		position: relative;
+	}
+
+	nav {
+		display: flex;
+		justify-content: center;
+		padding: 20px;
+		font-size: 1.3rem;
+		background-color: transparent;
+		height: 5ch;
+		align-items: center;
+		width: 100%;
+	}
+
+	.logo,.menu {
+		width: 50%;
+		width: 50%;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.logo {
+		/*background-color: green;*/
+		font-weight: bold;
+		color: white;
+	}
+
+	.menu {
+		/*background-color: red;*/
+		display: flex;
+		justify-content: right;
+	}
+
+	.menu button {
+		background-color: hotpink;
+		color: white;
+		padding: 7px;
+		font-weight: bold;
+		letter-spacing: 2px;
+		border-radius: 7px;
+		cursor: pointer;
+	}
+
+	.logo b {
+		color:hotpink;
+	}
+
+	.title {
+		line-height:3.5ch;
+		text-align: center;
+		font-size: 1.2rem;
+		color: white;
+	}
+
+	.title b {
+		color: hotpink;
+	}
+
+	.btn {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 30px;
+	}
+
+	.btn button {
+		font-size: 1rem;
+		padding: 7px;
+		background-color: black;
+		border: solid;
+		border-color: hotpink;
+		border-radius: 15px;
+		font-weight: bold;
+		color: white;
+		cursor: pointer;
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+
+	.con {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+	}
+
+	.content {
+		margin-top: 100px;
+	}
+
+	.about {
+		padding: 2rem;
+		color: white;
+		background-color: #1e1f1e;
+	}
+
+	.about p {
+		line-height: 2ch;
+		font-size: 1.1rem;
+	}
+
+	.sport {
+		padding: 2rem;
+		padding-top: 4rem;
+		display: grid;
+		place-items:center;
+		line-height: 3ch;
+	}
+
+	.sport span {
+		height: 4px;
+		width: 10ch;
+		background-color: hotpink;
+		margin: 15px;
+	}
+
+	.coor {
+		height: 50ch;
+		width: 40ch;
+		border: solid;
+		margin: 20px;
+	}
+</style>
+<body>
+<main>
+	<video loop autoplay muted id="video">
+		<source src="./video/v2.mp4" type="video/mp4">
+	</video>
+	
+	<div class="con">
+	<nav>
+		<div class="logo">AAH<b>VAAN</b></div>
+		<div class="menu"><button>MENU</button></div>
+	</nav>
+	
+	<div class="content">
+		
+		<div class="title">
+			<h1>AAHVAAN 2023 <br> <b>INTERBRANCH</b> COMPETITION</h1>
+			<h3>Coming Soon... Bikaner, Rajasthan</h3>
+		</div>
+		
+		<div class="btn">
+			<button>About The Event</button></div>
+		</div>
+
+	</div>
+</main>
+<div class="about">
+	<h1>About The Event</h1>
+	<p>The AAHVAAN 2K23 Sports Fest is an annual event that brings together athletes from different schools and organizations to compete in various sporting events. The event aims to promote sportsmanship, teamwork, and healthy competition among participants.</p><br>
+	<h3>WHERE</h3>
+	<p>Engineering College Bikaner,Pugal Rd, Karni Industrial Area, Bikaner, Rajasthan 334004</p><br>
+	<h3>WHEN</h3>
+	<p>23 January to 25 January</p>
+</div>
+<div class="sport">
+	<h1>SPORT COORDINATORS</h1>
+	<h4>Here are some of our Games</h4>
+	<span></span>
+	<div class="coor-hold">
+		<div class="coor"></div>
+		<div class="coor"></div>
+		<div class="coor"></div>
+		<div class="coor"></div>
+	</div>
+</div>
+</div>
+</body>
+</html>
